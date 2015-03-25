@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Great Gatsby Choose Your Own Adventure</title>
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+        <link rel="icon" type="image/png" href="images/favicon.ico">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    </head>
+    <body>
+		<img src="images/logo.png">
+        <div class="container" id="c1">
+            <h1>1</h1>
+            <p>You are a poor farmer from North Dakota. You struggle to make it by on the low income of your family and your job as a janitor is your only mean of securing money for college. You envision a grand future for yourself yet no one seems to recognize it.</p>
+            <div class="choice_container">
+                <div class="choice" next="#c2a"> <!--go to 2a-->
+                    Continue living like this.
+                </div>
+                <div class="choice" next="#c2b"> <!--go to 2b-->
+                    Run away in search of a better life.
+                </div>
+            </div>
+        </div>
+        
+        <div class="container" id="c2a">
+            <h1>2</h1>
+            <p>You stay and continue to live in poverty.</p>
+            <div class="choice_container">
+                <div class="choice" next="#c1"> <!--go to 1-->
+                    Try again.
+                </div>
+            </div>
+        </div>
+        
+        <div class="container" id="c2b">
+            <h1>2</h1>
+            <p>You run away to Lake Superior where you find a yacht out in the water of Little Girl Bay. You can see the storm clouds rolling in from the distance.</p>
+            <div class="choice_container">
+                <div class="choice" next="#c3a"> <!--go to 3a-->
+                    Warn the people on the yacht.
+                </div>
+                <div class="choice" next="#c3b"> <!--go to 3b-->
+                    Ignore, it's probably an empty yacht anyway.
+                </div>
+            </div>
+        </div>
+        
+        <div class="container" id="c3a">
+            <h1>3</h1>
+            <p>The captain, copper tycoon Dan Cody, is greatful for saving his life. He offers you a position on his boat</p>
+            <div class="choice_container">
+                <div class="choice" next="#c4a"> <!--go to 4a-->
+                    Accept the offer.
+                </div>
+                <div class="choice" next="#c2a"> <!--go to 2a-->
+                    Decline the offer.
+                </div>
+            </div>
+        </div>
+        
+        <div class="container" id="c3b">
+            <h1>3</h1>
+            <p>The yacht is heavily damaged by the storm, but it is still floating.</p>
+            <div class="choice_container">
+                <div class="choice" next="#c3a"> <!--go to 3a-->
+                    Check for survivors.
+                </div>
+                <div class="choice" next="#c2a"> <!--go to 2a-->
+                    Ignore it.
+                </div>
+            </div>
+        </div>
+        
+        <div class="container" id="c4a">
+            <h1>4</h1>
+            <p>You embark on a ten-year yatch trek with Dan Cody. During this time you begin to see how it is like to be wealthy.</p>
+            <div class="choice_container">
+                <div class="choice" next="#c5a">
+                    Continue the trek.
+                </div>
+                <div class="choice" next="#c2a">
+                    Leave Dan Cody.
+                </div>
+            </div>
+        </div>
+        
+        <div class="container" id="c5a">
+            <h1>1</h1>
+            <p>After ten years yachting, Dan Cody passes away. He'd left you a hefty sum of money in his will but his mistress cheated you out of it.</p>
+            <div class="choice_container">
+                <div class="choice" next="c6a">
+                    Continue yachting on your own.
+                </div>
+                <div class="choice" next="#c6b">
+                    Join the Army.
+                </div>
+            </div>
+        </div>
+        
+        <div class="container" id="c6a">
+            <h1>1</h1>
+            <p>You continue sailing on your own yet you are still reltively poor.</p>
+            <div class="choice_container">
+                <div class="choice" next="#c2a">
+                    Stop sailing.
+                </div>
+                <div class="choice" next="#c6b">
+                    Join the Army.
+                </div>
+            </div>
+        </div>
+		
+		<div class="container" id="c6b">
+            <p>During training for the infantry, you met a girl named Daisy Fay. She came from a wealthy patrician Louisville family.</p>
+            <div class="choice_container">
+                <div class="choice" next="#c7a">
+					Stop training and marry her.
+                </div>
+                <div class="choice" next="#c7b">
+					Deploy to Europe.
+                </div>
+            </div>
+        </div>
+		
+		<div class="container" id="c7a">
+            <p>You were turned down due to your poor status. You are determined to win Daisy's heart</p>
+            <div class="choice_container">
+                <div class="choice" next="#c7b">
+					Deploy to Europe.
+                </div>
+            </div>
+        </div>
+		
+		<div class="container" id="c7b">
+            <p>During the war, you reach the rank of Major and was decorated by many governments for valor. You are now attending Trinity College in Oxford. You receive a letter from Daisy saying she has married Tom Buchanan, a wealthy man.</p>
+            <div class="choice_container">
+                <div class="choice" next="#c8a">
+					Return home and look for Daisy.
+                </div>
+                <div class="choice" next="#c8b">
+					Continue studying in Oxford.
+                </div>
+            </div>
+        </div>
+		
+		<div class="container" id="c8a">
+            <p>You return home to New York. Prohibition has banned the use of alcohol and you are determined to become rich.</p>
+            <div class="choice_container">
+                <div class="choice" next="#c9a">
+					Take advantage of the Prohibition and become a bootlegger.
+                </div>
+                <div class="choice" next="#c9b">
+					Get a job and earn money by working hard.
+                </div>
+            </div>
+        </div>
+		
+		<div class="container" id="c8b">
+            <p>You remain in Europe and become a successful businessman. You never meet Daisy again, however. Your journey ends here.</p>
+            <div class="choice_container">
+                <div class="choice" next="#c8a">
+					Go back.
+                </div>
+            </div>
+        </div>
+		
+		<div class="container" id="c9a">
+            <p>You make a ludicrous amount of money and you make acquaintances with many gangsters along the way.</p>
+            <div class="choice_container">
+                <div class="choice" next="#c10a">
+					Buy a mansion in the luxurious West Egg.
+                </div>
+            </div>
+			<div class="choice_container">
+                <div class="choice" next="#c9b">
+					Quit the bootlegging business and make an honest living.
+                </div>
+            </div>
+        </div>
+		
+		<div class="container" id="c9b">
+            <p>You find a job in accounting and make a moderate income. Your journey ends here.</p>
+            <div class="choice_container">
+                <div class="choice" next="#c8a">
+					Go back.
+                </div>
+            </div>
+        </div>
+		
+		<div class="container" id="c10a">
+            <p>You throw parties every weekend at your mansion in hopes of attracting Daisy. She never came, but her cousin Nick Carraway did.</p>
+            <div class="choice_container">
+                <div class="choice" next="#c11a">
+					Use Nick Carraway to get to Daisy.
+                </div>
+                <div class="choice" next="#c11b">
+					Give up on finding Daisy.
+                </div>
+            </div>
+        </div>
+		
+		<div class="container" id="c11a">
+            <p>Through Nick Carraway, you were able to arrange a few meetings with Daisy.</p>
+            <div class="choice_container">
+                <div class="choice" next="#c12a">
+					Convince Daisy to leave her current husband.
+                </div>
+                <div class="choice" next="#c11b">
+					Accept that Daisy will never be yours.
+                </div>
+            </div>
+        </div>
+		
+		<div class="container" id="c11b">
+            <p>You are the wealthy man you have always wanted to be, but you never find Daisy again. Your journey ends here.</p>
+            <div class="choice_container">
+                <div class="choice" next="#c10a">
+					Go back.
+                </div>
+            </div>
+        </div>
+		
+		<div class="container" id="c12a">
+            <p>Visiting the Buchanans' home with Nick Caraway, you discover that Tom Buchanan is having an affair with his mistress, Myrtle Wilson, who lives in The Valley of Ashes. Tom suggests that they all visit New York City.</p>
+            <div class="choice_container">
+                <div class="choice" next="#c13a">
+					Accept.
+                </div>
+                <div class="choice" next="#c13b">
+					Decline and go home.
+                </div>
+            </div>
+        </div>
+		
+		<div class="container" id="c13b">
+            <p>Tom discovers your intention to take Daisy away from him and bars you from seeing her again. Your journey ends here.</p>
+            <div class="choice_container">
+                <div class="choice" next="#c12a">
+					Go back.
+                </div>
+            </div>
+        </div>
+		
+		<div class="container" id="c13a">
+            <p>You along with Tom and Daisy stay in an expensive hotel suite during your visit to New York City. A confrontation break out between you and Tom concerning your history as a bootlegger and your association with gangsters.</p>
+            <div class="choice_container">
+                <div class="choice" next="#c14a">
+					Argue back.
+                </div>
+                <div class="choice" next="#c14b">
+					Leave.
+                </div>
+            </div>
+        </div>
+		
+		<div class="container" id="c14a">
+            <p>You angrily insist that Daisy loved you and only married tom for his money. Daisy admits she loved both of you. The party then broke up.</p>
+            <div class="choice_container">
+                <div class="choice" next="#c14b">
+					Leave.
+                </div>
+            </div>
+        </div>
+		
+		<div class="container" id="c14b">
+            <p>As Daisy drive you out of New York City in your car you begin to see how your past choices have led up to this moment. You approach The Valley Ashes</p>
+            <div class="choice_container">
+                <div class="choice" next="#c15">
+					Continue driving.
+                </div>
+            </div>
+        </div>
+		
+		<div class="container" id="c15">
+            <p>As you drive through The Valley of Ashes, Myrtle mistakes your car for Tom's and runs out to meet him. Daisy panics and cound't stop in time. Myrtle dies instantly. You both have no choice but to continue drivng.</p>
+            <div class="choice_container">
+                <div class="choice" next="#c16">
+					...
+                </div>
+            </div>
+        </div>
+		
+		<div class="container" id="c16">
+            <p>George Wilson, Myrtle's husband, is devastated at his wife's death and seeks justice. He recognizes your car.</p>
+            <div class="choice_container">
+                <div class="choice" next="#c17">
+					...
+                </div>
+            </div>
+        </div>
+		
+		<div class="container" id="c17">
+            <p>You tell Daisy that you would take the blame if she was ever caught. You are willing to be charged with man slaughter to protect the woman you love.</p>
+            <div class="choice_container">
+                <div class="choice" next="#c18">
+					...
+                </div>
+            </div>
+        </div>
+		
+		<div class="container" id="c18">
+            <p>The next morning you decide to go for a swim in the pool to take your mind off of recents events.</p>
+            <div class="choice_container">
+                <div class="choice" next="#c19">
+					...
+                </div>
+            </div>
+        </div>
+		
+		<div class="container" id="c19">
+            <p>George Wilson finds your house in West Egg and enters.</p>
+            <div class="choice_container">
+                <div class="choice" next="#c20">
+					...
+                </div>
+            </div>
+        </div>
+		
+		<div class="container" id="c20">
+            <p>He's got a gun.</p>
+            <div class="choice_container">
+                <div class="choice" next="#c21">
+					...
+                </div>
+            </div>
+        </div>
+		
+		<div class="container" id="c21">
+            <p>George aims at your, still clueless floating about in the swimming pool, and pulls the trigger.</p>
+            <div class="choice_container">
+                <div class="choice" next="#c22">
+					...
+                </div>
+            </div>
+        </div>
+		
+		<div class="container" id="c22">
+            <p>You cease to exist. Your journey ends here.</p>
+            <div class="choice_container">
+                <div class="choice" next="#epilogue">
+					Epilogue.
+                </div>
+            </div>
+        </div>
+		
+		<div class="container" id="epilogue">
+            <p>Only one of your party guests attended your funeral along with Nick Carraway and your father. Daisy is nowhere to be scene.</p>
+            <div class="choice_container">
+                <div class="choice" next="#c1">
+					Restart.
+                </div>
+            </div>
+        </div>
+		
+		<div id="bottom">
+			<div class="notice">
+				<p class="title">THESIS</p>
+				<p class="descript">
+					In his novel “The Great Gatsby,” F. Scott Fitzgerald expressed through the introduction of many morally corrupt characters, the suggestion that Gatsby made his fortune illegally, and the association of his wealth with death that Gatsby’s means to achieve his dream ultimately led to his demise; however the depiction of Gatsby as a man of goodness and light reminds us that the dream itself was pure.
+				</p>
+			</div>
+			
+			<div class="notice">
+				<p class="title">ABOUT</p>
+				<p class="descript">
+					This project was modeled after a choose-your-own-adventure game to illustrate how Gatsby's choices throughout his life both directly and indirectly led to his ultimate demise. Along the way the game reminds the player that Gatsby's intention was only to be reunited with his lover. The game ends the player's journey by eliminating all choices, forcing the player down one path to his/her death to imitate Gatsby's inability to undo his choices.
+				</p>
+			</div>
+			
+			<div class="notice">
+				<p class="title">CREDITS</p>
+				<p class="descript">
+					Writing: <b>Courtney Gilbert</b> - <a href="https://docs.google.com/document/d/1XTnhCxFgSPsJpEqyv6sZNC79aneh3udnJlGbssZ-VKs/edit?usp=sharing" target="_blank">View planning document</a>
+					<br />
+					<br />
+					Programming: <b>Tom Nguyen</b> - <a href="https://github.com/tenart/GreatGatsbyGame" target="_blank">View source code</a>
+				</p>
+			</div>
+		</div>
+        <script src="scripts/scripts.js"></script>
+    </body>
+</html>
